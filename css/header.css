@@ -1,0 +1,40 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 2rem 4rem;
+  max-width: 1200px;
+  height: auto;
+}
+
+.menu {
+  display: flex;
+  gap: 4rem;
+}
+
+a {
+  color: black;
+}
+
+@media (max-width: 800px) {
+  header {
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    margin: 0 auto;
+    padding: 1rem 4rem;
+    max-width: 1200px;
+  }
+
+  .menu {
+    margin-top: 2rem;
+    display: flex;
+    gap: 2rem;
+  }
+
+  .menu li {
+    background-color: rgb(230, 230, 230);
+    padding: 0.5rem;
+    border-radius: 4px;
+  }
+}

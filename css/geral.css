@@ -1,0 +1,28 @@
+body {
+  font-family: "Fira Sans", Arial, sans-serif;
+  margin: 0px;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+p,
+h1,
+h2,
+h3 {
+  margin: 0rem;
+}
+
+h3 {
+  font-size: 1.125rem;
+}
+
+ul {
+  padding-inline-start: 0px;
+}

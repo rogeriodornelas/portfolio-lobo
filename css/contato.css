@@ -1,0 +1,63 @@
+footer {
+  background-color: black;
+}
+
+.contato-grid {
+  display: grid;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 60px 20px;
+  grid-template-columns: 1fr 1fr;
+  font-size: 1.5rem;
+  align-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.contato-grid::before {
+  content: url("../img/detalhe.svg");
+  position: absolute;
+  top: -65px;
+}
+
+.contato-mensagem {
+  color: #cccccc;
+}
+
+.contatos-galeria {
+  display: grid;
+  gap: 2rem;
+}
+
+.contato-grid ul li a {
+  color: #ffffff;
+  font-size: 2.25rem;
+  font-weight: bold;
+}
+
+.direitos-reservados {
+  color: #8f8f8f;
+  font-size: 1rem;
+}
+
+.instagram {
+  text-decoration: underline;
+}
+
+@media (max-width: 800px) {
+  .contato-mensagem {
+    margin-top: 3rem;
+  }
+
+  .contato-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .contato-grid ul li a {
+    font-size: 1.25rem;
+  }
+
+  .contatos-galeria {
+    margin-bottom: 3rem;
+  }
+}
